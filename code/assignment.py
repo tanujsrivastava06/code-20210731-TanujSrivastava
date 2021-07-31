@@ -36,7 +36,7 @@ class Person:
 		    self.health = "Very high risk"
              
              
-def DataColumn(height,weight):
+def HealthData(height,weight):
 	obj = Person(height,weight)
 	obj.CalculateBMI();
 	obj.HealthDetails();
